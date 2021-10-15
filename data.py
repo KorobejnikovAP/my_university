@@ -42,5 +42,3 @@ def online_costs():
     sum += 4 * 12 * (other_costs['internet_price'][0] + other_costs['zoom'][0])
     return sum 
 
-r = offline_costs()
-print(r)
